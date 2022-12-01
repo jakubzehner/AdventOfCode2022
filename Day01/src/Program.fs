@@ -1,7 +1,7 @@
 ﻿open Part1
 open Part2
 
-let input = "input.txt"
+let input = "inputs/test.txt"
 
 [<EntryPoint>]
 let main argv = 

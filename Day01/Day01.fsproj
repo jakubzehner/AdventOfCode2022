@@ -6,16 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Common.fs" />
-    <Compile Include="Part1.fs" />
-    <Compile Include="Part2.fs" />
-    <Content Include="test.txt">
+	  <Content Include="inputs\input.txt" />
+	  <Content Include="inputs\test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="input.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Compile Include="Program.fs" />
+	  <Compile Include="src\Common.fs" />
+	  <Compile Include="src\Part1.fs" />
+	  <Compile Include="src\Part2.fs" />
+	  <Compile Include="src\Program.fs" />
   </ItemGroup>
 
 </Project>
