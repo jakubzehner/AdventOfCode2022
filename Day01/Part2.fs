@@ -2,7 +2,7 @@
 
 open Common
 
-let getListOfMaxes number oldMaxes =
+let getListOfMaxes oldMaxes number =
     let rec getNewListOfMaxes oldMaxes newMaxes number =
         match oldMaxes with
         | [] -> newMaxes
@@ -11,10 +11,5 @@ let getListOfMaxes number oldMaxes =
     
     getNewListOfMaxes oldMaxes [] number
 
-let findSumOfThreeMax filePath = 
-    let rec findThreeMax maxes calories =
-        match calories with
-        | [] -> maxes
-        | h::t -> findThreeMax (getListOfMaxes h maxes) t
-
-    List.sum (findThreeMax [0; 0; 0] (getCaloriesPerElf filePath))
+let findSumOfThreeMax filePath =
+    List.sum (List.fold getListOfMaxes [0; 0; 0] (getCaloriesPerElf filePath))
