@@ -1,18 +1,9 @@
-﻿let input = "input.txt"
+﻿open Part1
+open Part2
 
-let readLines filePath =
-    System.IO.File.ReadLines(filePath)
-
-let findMax filePath =
-    let rec findMaxRec current maxNumber lines =
-        match lines with
-        | [] -> maxNumber
-        | ""::t -> findMaxRec 0 (max current maxNumber) t
-        | number::t -> findMaxRec (current + (number |> int)) maxNumber t
-
-    findMaxRec 0 0 (List.ofSeq (readLines filePath))
+let input = "input.txt"
 
 [<EntryPoint>]
 let main argv = 
-    printfn "%d" (findMax input)
+    printfn "%d" (Part1.findMax input)
     0
