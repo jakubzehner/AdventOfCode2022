@@ -1,4 +1,4 @@
-# Advent of Code 2022 🎄🌟
+# 🌟🎄 Advent of Code 2022 🎄🌟
 You can find more information about AoC [here](https://adventofcode.com/2022 "Advent of Code 2022").
 
 ## Languages
