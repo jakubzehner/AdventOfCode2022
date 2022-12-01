@@ -5,5 +5,6 @@ let input = "input.txt"
 
 [<EntryPoint>]
 let main argv = 
-    printfn "%d" (Part1.findMax input)
+    printfn "%d" (findMax input)
+    printfn "%d" (findSumOfThreeMax input)
     0
