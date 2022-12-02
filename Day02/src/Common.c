@@ -3,9 +3,9 @@
 
 enum Shape
 {
-    Rock = 1,
-    Paper = 2,
-    Scissor = 3
+    Rock = 0,
+    Paper = 1,
+    Scissor = 2
 };
 
 int getPointsForResult(enum Shape enemyShape, enum Shape yourShape)
@@ -28,7 +28,7 @@ int getPointsForResult(enum Shape enemyShape, enum Shape yourShape)
 
 int getPointsForShape(enum Shape shape)
 {
-    return (int)shape;
+    return (int)shape + 1;
 }
 
 #endif // COMMON

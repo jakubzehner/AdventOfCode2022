@@ -10,7 +10,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day                        | Language | Part 1 | Part 2 |
 | -------------------------- | :------: | :----: | :----: |
 | Day 1:  Calorie Counting   |    F#    |   🌟    |   🌟    |
-| Day 2: Rock Paper Scissors |    C     |   🌟    |        |
+| Day 2: Rock Paper Scissors |    C     |   🌟    |   🌟    |
 <!-- | Day 3:                     |          |        |        |
 | Day 4:                     |          |        |        |
 | Day 5:                     |          |        |        |

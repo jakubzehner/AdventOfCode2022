@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #include "Part1.c"
+#include "Part2.c"
 
 #define NUMBER_OF_LINES 3
 #define NUMBER_OF_CHARS_IN_LINE 2
@@ -42,7 +43,12 @@ int main()
     readStrategyGuide(FILE_NAME, lines);
     
     //Part1
-    printf("%d", getScore(lines, NUMBER_OF_LINES));
+    printf("%d", getScore1(lines, NUMBER_OF_LINES));
+
+    printf("\n");
+
+    //Part2
+    printf("%d", getScore2(lines, NUMBER_OF_LINES));
 
     
     for (int i = 0; i < NUMBER_OF_LINES; i++)
