@@ -1,39 +1,35 @@
-//#include <stdio.h>
+#include "Common.c"
 
-int getResult(char enemyShape, char yourShape)
+enum Shape getShape(char codedShape)
 {
-    if ((enemyShape == 'A' && yourShape == 'Y') || (enemyShape == 'B' && yourShape == 'Z') || (enemyShape == 'C' && yourShape == 'X'))
+    switch (codedShape)
     {
-        return 2;
-    }
-    else if ((enemyShape == 'A' && yourShape == 'Z') || (enemyShape == 'B' && yourShape == 'X') || (enemyShape == 'C' && yourShape == 'Y'))
-    {
-        return 0;
-    }
-    else
-    {
-        return 1;
+    case 'A':
+        return Rock;
+    case 'B':
+        return Paper;
+    case 'C':
+        return Scissor;
+    case 'X':
+        return Rock;
+    case 'Y':
+        return Paper;
+    case 'Z':
+        return Scissor;
     }
 }
 
-int getPointsForResult(int result)
-{
-    return result * 3;
-}
-
-int getPointsForShape(char shape)
-{
-    return ((int)shape) - 87;
-}
-
-int getScore(char **lines, int strategyLength)
+int getScore1(char **lines, int strategyLength)
 {
     int points = 0;
 
     for (int i = 0; i < strategyLength; i++)
     {
-        points += getPointsForResult(getResult(lines[i][0], lines[i][1]));
-        points += getPointsForShape(lines[i][1]);
+        enum Shape enemyShape = getShape(lines[i][0]);
+        enum Shape yourShape = getShape(lines[i][1]);
+
+        points += getPointsForResult(enemyShape, yourShape);
+        points += getPointsForShape(yourShape);
     }
 
     return points;
