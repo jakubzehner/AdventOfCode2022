@@ -10,17 +10,7 @@ enum Shape
 
 int getPointsForResult(enum Shape enemyShape, enum Shape yourShape)
 {
-    int difference = ((int)enemyShape - (int)yourShape + 3) % 3;
-
-    switch (difference)
-    {
-    case 0:
-        return 3;
-    case 1:
-        return 0;
-    case 2:
-        return 6;
-    }
+    return (((int)yourShape - (int)enemyShape + 4) % 3) * 3;
 }
 
 int getPointsForShape(enum Shape shape)
