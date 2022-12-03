@@ -22,9 +22,9 @@ enum Shape getYourShape(enum Shape enemyShape, char codedYourShape)
     case 'Y':
         return enemyShape;
     case 'Z':
-        return (enum Shape) ((enemyShapeValue + 1) % 3);
+        return (enum Shape) ((enemyShapeValue + 1) % NUMBER_OF_SHAPES);
     case 'X':
-        return (enum Shape) ((enemyShapeValue + 2) % 3);
+        return (enum Shape) ((enemyShapeValue - 1 + NUMBER_OF_SHAPES) % NUMBER_OF_SHAPES);
     }
 }
 
