@@ -12,4 +12,6 @@ let getListOfMaxes oldMaxes number =
     getNewListOfMaxes oldMaxes [] number
 
 let findSumOfThreeMax filePath =
-    List.sum (List.fold getListOfMaxes [0; 0; 0] (getCaloriesPerElf filePath))
+    getCaloriesPerElf filePath
+    |> List.fold getListOfMaxes [0; 0; 0]
+    |> List.sum 

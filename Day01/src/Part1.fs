@@ -3,4 +3,5 @@
 open Common
 
 let findMax filePath =
-    List.max (getCaloriesPerElf filePath)
+    getCaloriesPerElf filePath
+    |> List.max
