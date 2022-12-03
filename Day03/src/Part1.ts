@@ -1,28 +1,20 @@
 import translateCharToPriority from "./Common"
 
 function calculateSumOfPriorities(rucksacks: string[]): number {
-    let sumOfPriorities = 0;
+    return rucksacks.reduce(calculatePriorities, 0);
+}
 
-    for (let rucksack of rucksacks) {
-        rucksack = rucksack.trim();
+function calculatePriorities(sumOfPriorities: number, rucksack: string): number {
+    rucksack = rucksack.trim();
+    const half = rucksack.length / 2;
 
-        const half = rucksack.length / 2;
-        const firstCompartment = rucksack.slice(0, half);
-        const secondCompartment = rucksack.slice(half);
+    const uniqueItems = new Set<string>();
+    Array.from(rucksack.slice(0, half))
+        .forEach(char => uniqueItems.add(char));
 
-        const uniqueItems = new Set<string>();
-        for (const char of firstCompartment) {
-            uniqueItems.add(char);
-        }
-
-        for (const char of secondCompartment) {
-            if (uniqueItems.has(char)) {
-                sumOfPriorities += translateCharToPriority(char);
-                break;
-            }
-        }
-    }
-
+    sumOfPriorities += translateCharToPriority(Array.from(rucksack.slice(half))
+        .find(char => uniqueItems.has(char))!);
+        
     return sumOfPriorities;
 }
 

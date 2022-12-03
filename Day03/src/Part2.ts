@@ -4,28 +4,17 @@ function calculateSumOfBadgesPriorities(rucksacks: string[]): number {
     let sumOfBadgesPriorities = 0;
 
     for (let i = 0; i < rucksacks.length; i += 3) {
-        const firstRucksack = rucksacks[i].trim();
-        const secondRucksack = rucksacks[i + 1].trim();
-        const thirdRucksack = rucksacks[i + 2].trim();
-
         const uniqueItems = new Set<string>();
-        for (const char of firstRucksack) {
-            uniqueItems.add(char);
-        }
+        Array.from(rucksacks[i].trim())
+            .forEach(char => uniqueItems.add(char));
 
         const repeatedItems = new Set<string>();
-        for (const char of secondRucksack) {
-            if (uniqueItems.has(char)) {
-                repeatedItems.add(char);
-            }
-        }
-        
-        for (const char of thirdRucksack) {
-            if (repeatedItems.has(char)) {
-                sumOfBadgesPriorities += translateCharToPriority(char);
-                break;
-            }
-        }
+        Array.from(rucksacks[i + 1].trim())
+            .filter(char => uniqueItems.has(char))
+            .forEach(char => repeatedItems.add(char));
+
+        sumOfBadgesPriorities += translateCharToPriority(Array.from(rucksacks[i + 2].trim())
+            .find(char => repeatedItems.has(char))!);
     }
 
     return sumOfBadgesPriorities;
