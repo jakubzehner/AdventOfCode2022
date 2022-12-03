@@ -12,7 +12,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | ------------------------------- | :--------: | :----: | :----: |
 | Day 1:  Calorie Counting        |     F#     |   🌟    |   🌟    |
 | Day 2: Rock Paper Scissors      |     C      |   🌟    |   🌟    |
-| Day 3:  Rucksack Reorganization | Typescript |   🌟    |        |
+| Day 3:  Rucksack Reorganization | Typescript |   🌟    |   🌟    |
 <!-- | Day 4:                          |            |        |        |
 | Day 5:                          |            |        |        |
 | Day 6:                          |            |        |        |
