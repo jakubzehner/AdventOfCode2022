@@ -36,3 +36,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 23:                         |            |        |        |
 | Day 24:                         |            |        |        |
 | Day 25:                         |            |        |        | -->
+
+<!--
+F#, C, Typescript, Rust
+SQL, Bash, D, Ruby, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+-->
