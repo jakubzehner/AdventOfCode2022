@@ -5,6 +5,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![F-sharp](https://img.shields.io/badge/F%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
 ## Progress
 
@@ -13,8 +14,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 1:  Calorie Counting        |     F#     |   🌟    |   🌟    |
 | Day 2: Rock Paper Scissors      |     C      |   🌟    |   🌟    |
 | Day 3:  Rucksack Reorganization | Typescript |   🌟    |   🌟    |
-<!-- | Day 4:                          |            |        |        |
-| Day 5:                          |            |        |        |
+| Day 4:   Camp Cleanup           |    Rust    |   🌟    |        |
+<!-- | Day 5:                          |            |        |        |
 | Day 6:                          |            |        |        |
 | Day 7:                          |            |        |        |
 | Day 8:                          |            |        |        |
