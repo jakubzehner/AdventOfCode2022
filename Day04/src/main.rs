@@ -6,7 +6,7 @@ mod common;
 mod part1;
 mod part2;
 
-const FILE_NAME: &str = "inputs/input.txt";
+const FILE_NAME: &str = "inputs/test.txt";
 
 fn main() {
     let input = read_input(FILE_NAME);
