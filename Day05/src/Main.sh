@@ -3,16 +3,12 @@
 source $(dirname "$0")/Common.sh
 source $(dirname "$0")/Part1.sh
 
+# File have to end with empty line, otherwise there is problem with reading last line
 FILE_NAME="$(dirname "$0")/../inputs/test.txt"
 
-read_input $FILE_NAME array_of_moves
+read_input $FILE_NAME array_of_moves number_of_stacks
 
-stack_print 1
-stack_print 2
-stack_print 3
-stack_print 4
-stack_print 5
-stack_print 6
-stack_print 7
-stack_print 8
-stack_print 9
+# Part 1
+moveItems array_of_moves
+getStacksTops number_of_stacks stacksTops
+echo $stacksTops

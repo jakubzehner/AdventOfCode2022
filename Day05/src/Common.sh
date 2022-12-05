@@ -4,7 +4,8 @@ source $(dirname "$0")/Stack.sh
 
 function read_input {
     input=$1
-    moves=$2
+    local -n moves=$2
+    local -n length=$3
     
     first_line=1
     building_stacks=1
@@ -59,13 +60,19 @@ function read_input {
         fi
         
         # add moves to array
-        # TODO: parse moves into better array
+        [[ ${line:6:1} == " " ]] && offset=0 || offset=1
+        
+        firstN=${line:5:$((1 + $offset))}
+        secondN=${line:$((12 + $offset)):1}
+        thirdN=${line:$((17 + $offset)):1}
+        
+        moves+=("$firstN,$secondN,$thirdN")
         
     done < "$input"
     
     # reverse stacks
     for (( i=1; i<=$length; i++ ))
-    do  
+    do
         stack_size $((i+length)) size
         for (( j=1; j<=$size; j++ ))
         do

@@ -37,7 +37,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 2: Rock Paper Scissors      |     C      |   🌟    |   🌟    |
 | Day 3:  Rucksack Reorganization | Typescript |   🌟    |   🌟    |
 | Day 4:   Camp Cleanup           |    Rust    |   🌟    |   🌟    |
-| Day 5:      Supply Stacks       |    Bash    |        |        |
+| Day 5:      Supply Stacks       |    Bash    |   🌟    |        |
 <!-- | Day 6:                          |            |        |        |
 | Day 7:                          |            |        |        |
 | Day 8:                          |            |        |        |
