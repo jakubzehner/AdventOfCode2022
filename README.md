@@ -6,9 +6,9 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 <!-- ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) -->
-<!-- ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) -->
 <!-- ![D](https://img.shields.io/badge/d-%23B03931.svg?style=for-the-badge&logo=d&logoColor=white) -->
 <!-- ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) -->
 <!-- ![OCaml](https://img.shields.io/badge/ocaml-%23EC6813?style=for-the-badge&logo=ocaml&logoColor=white) -->
@@ -37,8 +37,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 2: Rock Paper Scissors      |     C      |   🌟    |   🌟    |
 | Day 3:  Rucksack Reorganization | Typescript |   🌟    |   🌟    |
 | Day 4:   Camp Cleanup           |    Rust    |   🌟    |   🌟    |
-<!-- | Day 5:                          |            |        |        |
-| Day 6:                          |            |        |        |
+| Day 5:      Supply Stacks       |    Bash    |        |        |
+<!-- | Day 6:                          |            |        |        |
 | Day 7:                          |            |        |        |
 | Day 8:                          |            |        |        |
 | Day 9:                          |            |        |        |
@@ -60,6 +60,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 25:                         |            |        |        | -->
 
 <!--
-F#, C, Typescript, Rust
-SQL, Bash, D, Ruby, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+F#, C, Typescript, Rust, Bash
+SQL, D, Ruby, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+ReasonML
 -->
