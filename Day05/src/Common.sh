@@ -81,3 +81,28 @@ function read_input {
         done
     done
 }
+
+function getStacksTops
+{
+    len=$1
+    local -n tops=$2
+    tops=""
+    
+    for (( i=1; i<=$len; i++ ))
+    do
+        stack_pop $i item
+        tops+=$item
+        stack_push $i $item
+    done
+}
+
+function wipeData
+{
+    stacks_n=$1
+    stacks_n=$(($stacks_n * 2))
+    
+    for (( i=1; i<=$stacks_n; i++ ))
+    do
+        stack_destroy $i
+    done
+}
