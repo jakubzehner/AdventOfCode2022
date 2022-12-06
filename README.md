@@ -2,15 +2,15 @@
 You can find more information about AoC [here](https://adventofcode.com/2022 "Advent of Code 2022").
 
 ## Languages
-![F-sharp](https://img.shields.io/badge/F%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![F-sharp](https://img.shields.io/badge/F%23-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
 
 <!-- ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) -->
 <!-- ![D](https://img.shields.io/badge/d-%23B03931.svg?style=for-the-badge&logo=d&logoColor=white) -->
-<!-- ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) -->
 <!-- ![OCaml](https://img.shields.io/badge/ocaml-%23EC6813?style=for-the-badge&logo=ocaml&logoColor=white) -->
 <!-- ![Haskell](https://img.shields.io/badge/Haskell-%235e5086?style=for-the-badge&logo=haskell&logoColor=white) -->
 <!-- ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) -->
@@ -31,36 +31,37 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 
 ## Progress
 
-| Day                             |  Language  | Part 1 | Part 2 |
-| ------------------------------- | :--------: | :----: | :----: |
-| Day 1:  Calorie Counting        |     F#     |   🌟    |   🌟    |
-| Day 2: Rock Paper Scissors      |     C      |   🌟    |   🌟    |
-| Day 3:  Rucksack Reorganization | Typescript |   🌟    |   🌟    |
-| Day 4:   Camp Cleanup           |    Rust    |   🌟    |   🌟    |
-| Day 5:      Supply Stacks       |    Bash    |   🌟    |   🌟    |
-<!-- | Day 6:                          |            |        |        |
-| Day 7:                          |            |        |        |
-| Day 8:                          |            |        |        |
-| Day 9:                          |            |        |        |
-| Day 10:                         |            |        |        |
-| Day 11:                         |            |        |        |
-| Day 12:                         |            |        |        |
-| Day 13:                         |            |        |        |
-| Day 14:                         |            |        |        |
-| Day 15:                         |            |        |        |
-| Day 16:                         |            |        |        |
-| Day 17:                         |            |        |        |
-| Day 18:                         |            |        |        |
-| Day 19:                         |            |        |        |
-| Day 20:                         |            |        |        |
-| Day 21:                         |            |        |        |
-| Day 22:                         |            |        |        |
-| Day 23:                         |            |        |        |
-| Day 24:                         |            |        |        |
-| Day 25:                         |            |        |        | -->
+| Day                            |  Language  | Part 1 | Part 2 |
+| ------------------------------ | :--------: | :----: | :----: |
+| Day 1: Calorie Counting        |     F#     |   🌟    |   🌟    |
+| Day 2: Rock Paper Scissors     |     C      |   🌟    |   🌟    |
+| Day 3: Rucksack Reorganization | Typescript |   🌟    |   🌟    |
+| Day 4: Camp Cleanup            |    Rust    |   🌟    |   🌟    |
+| Day 5: Supply Stacks           |    Bash    |   🌟    |   🌟    |
+| Day 6: Tuning Trouble          |    Ruby    |        |        |
+<!-- 
+| Day 7:                         |            |        |        |
+| Day 8:                         |            |        |        |
+| Day 9:                         |            |        |        |
+| Day 10:                        |            |        |        |
+| Day 11:                        |            |        |        |
+| Day 12:                        |            |        |        |
+| Day 13:                        |            |        |        |
+| Day 14:                        |            |        |        |
+| Day 15:                        |            |        |        |
+| Day 16:                        |            |        |        |
+| Day 17:                        |            |        |        |
+| Day 18:                        |            |        |        |
+| Day 19:                        |            |        |        |
+| Day 20:                        |            |        |        |
+| Day 21:                        |            |        |        |
+| Day 22:                        |            |        |        |
+| Day 23:                        |            |        |        |
+| Day 24:                        |            |        |        |
+| Day 25:                        |            |        |        | -->
 
 <!--
 F#, C, Typescript, Rust, Bash
 SQL, D, Ruby, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
-ReasonML
+ReasonML, PureScript
 -->
