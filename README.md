@@ -63,5 +63,5 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 <!--
 F#, C, Typescript, Rust, Bash, Ruby
 SQL, D, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
-ReasonML, PureScript
+ReasonML, PureScript, Crystal
 -->

@@ -5,5 +5,5 @@ PART1_SEQ_LEN = 4
 PART2_SEQ_LEN = 14
 
 input = readInput(FILE_NAME)
-puts findStartMarkerPosition input, PART1_SEQ_LEN
-puts findStartMarkerPosition input, PART2_SEQ_LEN
+puts findStartMarkerPosition(input, PART1_SEQ_LEN)
+puts findStartMarkerPosition(input, PART2_SEQ_LEN)

@@ -1,19 +1,16 @@
 require 'set'
 
 def readInput(fileName)
-    file = File.open(fileName)
-    data = (file.read).scan /\w/
-    file.close
-
-    return data
+    File.open(fileName) do |file|
+        data = file.read.scan(/\w/)
+        return data
+    end
 end
 
 def findStartMarkerPosition(input, sequence_length)
     for i in (sequence_length)..(input.size)
         uniqueChars = Set.new(input.slice(i - sequence_length, sequence_length))
-        if uniqueChars.size == sequence_length
-            return i
-        end
+        return i if uniqueChars.size == sequence_length
     end
     return -1
 end
