@@ -38,7 +38,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 3: Rucksack Reorganization | Typescript |   🌟    |   🌟    |
 | Day 4: Camp Cleanup            |    Rust    |   🌟    |   🌟    |
 | Day 5: Supply Stacks           |    Bash    |   🌟    |   🌟    |
-| Day 6: Tuning Trouble          |    Ruby    |        |        |
+| Day 6: Tuning Trouble          |    Ruby    |   🌟    |   🌟    |
 <!-- 
 | Day 7:                         |            |        |        |
 | Day 8:                         |            |        |        |
@@ -61,7 +61,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 25:                        |            |        |        | -->
 
 <!--
-F#, C, Typescript, Rust, Bash
-SQL, D, Ruby, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+F#, C, Typescript, Rust, Bash, Ruby
+SQL, D, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
 ReasonML, PureScript
 -->
