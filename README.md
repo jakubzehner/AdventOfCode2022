@@ -8,10 +8,10 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
+![OCaml](https://img.shields.io/badge/ocaml-%23EC6813?style=for-the-badge&logo=ocaml&logoColor=white)
 
 <!-- ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) -->
 <!-- ![D](https://img.shields.io/badge/d-%23B03931.svg?style=for-the-badge&logo=d&logoColor=white) -->
-<!-- ![OCaml](https://img.shields.io/badge/ocaml-%23EC6813?style=for-the-badge&logo=ocaml&logoColor=white) -->
 <!-- ![Haskell](https://img.shields.io/badge/Haskell-%235e5086?style=for-the-badge&logo=haskell&logoColor=white) -->
 <!-- ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) -->
 <!-- ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) -->
@@ -39,8 +39,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 4: Camp Cleanup            |    Rust    |   🌟    |   🌟    |
 | Day 5: Supply Stacks           |    Bash    |   🌟    |   🌟    |
 | Day 6: Tuning Trouble          |    Ruby    |   🌟    |   🌟    |
-<!-- 
-| Day 7:                         |            |        |        |
+| Day 7: No Space Left On Device |   Ocaml    |   🌟    |        |
+<!--
 | Day 8:                         |            |        |        |
 | Day 9:                         |            |        |        |
 | Day 10:                        |            |        |        |
@@ -61,7 +61,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 25:                        |            |        |        | -->
 
 <!--
-F#, C, Typescript, Rust, Bash, Ruby
-SQL, D, Ocaml, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+F#, C, Typescript, Rust, Bash, Ruby, Ocaml
+SQL, D, Haskell, R, Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
 ReasonML, PureScript, Crystal
 -->
