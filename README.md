@@ -12,7 +12,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![D](https://img.shields.io/badge/d-%23B03931.svg?style=for-the-badge&logo=d&logoColor=white)
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 
-<!-- ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) -->
+<!-- ![ReasonML](https://img.shields.io/badge/reasonml-%23DD4B39.svg?style=for-the-badge&logo=reason&logoColor=white) -->
+<!-- ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) -->
 <!-- ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) -->
 <!-- ![Visual Basic](https://img.shields.io/badge/visual_basic-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white) -->
 <!-- ![Julia](https://img.shields.io/badge/-Julia-%239558B2?style=for-the-badge&logo=julia&logoColor=white) -->
