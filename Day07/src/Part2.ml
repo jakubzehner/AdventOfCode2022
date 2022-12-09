@@ -1,11 +1,7 @@
-let get_smallest_directory_to_make_enough_free_space list sum min_free_space total_disk_size =
-  let space_to_free = min_free_space - total_disk_size + sum in
-  let rec get_smallest_dir_size list smallest =
-    match list with
-    | h::t -> if h >= space_to_free && h < smallest then
-        get_smallest_dir_size t h
-      else
-        get_smallest_dir_size t smallest
-    | [] -> smallest
-  in get_smallest_dir_size list sum
+let solution2 size_list size_sum required_space disk_size =
+  let unused_space = disk_size - size_sum in
+  let needed_space = required_space - unused_space in
+  size_list
+  |> List.filter (fun x -> x >= needed_space)
+  |> List.fold_left (fun acc x -> min acc x) size_sum
 ;;

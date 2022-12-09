@@ -58,7 +58,7 @@ let build_file_system_from_input input_file_name =
   in build root
 ;;
 
-let get_list_of_dirs_sizes root = 
+let get_size_list_and_sum root = 
   let rec get_size_list file_system =
     match file_system with
     | File(_, _, size) -> ([], size)
