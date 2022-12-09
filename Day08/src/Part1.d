@@ -6,9 +6,7 @@ import std.typecons;
 alias Unit = void[0];
 enum unit = Unit.init;
 
-//treeSet[Tree(1, 1)] = unit;
-
-int countVisibleTrees(int[][] trees) {
+int countVisibleTrees(ref int[][] trees) {
     alias Tree = Tuple!(int, "x", int, "y");
     Unit[Tree] treeSet;
     auto size = trees.length;
@@ -29,7 +27,6 @@ int countVisibleTrees(int[][] trees) {
                 treeSet[Tree(i, j)] = unit;
             }
         }
-
     }
 
     for(auto j = 0; j < size; j++) {
@@ -37,18 +34,17 @@ int countVisibleTrees(int[][] trees) {
         auto maxFromBottom = -1;
 
         for(int i = 0; i < size; i++) {
-            if (trees[i][j] > maxFromTop){
+            if (trees[i][j] > maxFromTop) {
                 maxFromTop = trees[i][j];
                 treeSet[Tree(i, j)] = unit;
             }
         }
         for(int i = size - 1; i >= 0; i--) {
-            if (trees[i][j] > maxFromBottom){
+            if (trees[i][j] > maxFromBottom) {
                 maxFromBottom = trees[i][j];
                 treeSet[Tree(i, j)] = unit;
             }
         }
-
     }
 
     return treeSet.length;
