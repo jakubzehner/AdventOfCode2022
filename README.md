@@ -40,7 +40,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 5: Supply Stacks           |    Bash    |   🌟    |   🌟    |
 | Day 6: Tuning Trouble          |    Ruby    |   🌟    |   🌟    |
 | Day 7: No Space Left On Device |   Ocaml    |   🌟    |   🌟    |
-| Day 8: Treetop Tree House      |     D      |   🌟    |        |
+| Day 8: Treetop Tree House      |     D      |   🌟    |   🌟    |
 <!--
 | Day 9:                         |            |        |        |
 | Day 10:                        |            |        |        |
