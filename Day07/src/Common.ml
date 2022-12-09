@@ -4,73 +4,42 @@ type file_system =
   | Nil
 ;;
 
-let print_file_system file_system = 
-  let rec p_f_s offset curr_sys =
-    match curr_sys with
-    | File (_, s, i) -> print_string offset; print_string s; print_string "\n"
-    | Dir (_, s, ls) -> print_string offset; print_string s; print_string "\n"; List.iter (p_f_s ("  " ^ offset)) !ls
-    | Nil -> ()
-  in p_f_s "" file_system
-;;
-
-let build_file_system input_line parent =
-  let find_child childs path =
-    let rec check_child childs =
-        match childs with
-        | Dir(_, _path, _) as next :: _ when _path = path -> next
-        | _::t -> check_child t
-        | [] -> Nil
-    in check_child childs
+let build_file_tree line parent =
+  let get_sub_dir searched_dir =
+    List.find (function (Dir(_, dir_name, _)) -> dir_name = searched_dir | _ -> false)
   in
-  match String.split_on_char ' ' input_line with
-  | ["$"; "ls"] -> parent;
-  | ["$"; "cd"; "/"] -> parent
-  | ["$"; "cd"; ".."] -> (
-    match parent with
-    | Dir(p, _, _) -> p
-    | _ -> parent
-  )
-  | ["$"; "cd"; path] -> (
-    match parent with
-    | Dir(_, _, childs) -> find_child !childs path
-    | _ -> parent
-  )
-  | ["dir"; dir_name] -> (
-    match parent with
-    | Dir(_, _, childs) -> childs := (Dir(parent, dir_name, ref [])::!childs); parent
-    | _ -> parent
-  )
-  | [size; file_name] -> (
-    match parent with
-    | Dir(_, _, childs) -> childs := (File(parent, file_name, int_of_string size)::!childs); parent
-    | _ -> parent
-  )
-  | other -> parent
+  match String.split_on_char ' ' line, parent with
+  | ["$"; "ls"], _ -> parent
+  | ["$"; "cd"; "/"], _ -> parent
+  | ["$"; "cd"; ".."], Dir(dir_parent, _, _) -> dir_parent
+  | ["$"; "cd"; dir_name], Dir(_, _, subtree) -> get_sub_dir dir_name !subtree 
+  | ["dir"; dir_name], Dir(_, _, subtree) -> subtree := Dir(parent, dir_name, ref [])::!subtree; parent
+  | [file_size; file_name], Dir(_, _, subtree) -> subtree := File(parent, file_name, int_of_string file_size)::!subtree; parent
+  | _, _ -> parent
 ;;
 
-let build_file_system_from_input input_file_name =
+let build_file_tree_from_input input_file_name =
   let input = (open_in input_file_name) in
   let root = Dir(Nil, "/", ref []) in
   let rec build parent =
     match input_line input with
-    | line -> build (build_file_system line parent)
+    | line -> build_file_tree line parent |> build
     | exception End_of_file -> close_in input; root
   in build root
 ;;
 
-let get_size_list_and_sum root = 
-  let rec get_size_list file_system =
-    match file_system with
-    | File(_, _, size) -> ([], size)
-    | Nil -> ([], 0)
-    | Dir(_, _, childs) ->
-      let childs_results = List.map get_size_list !childs in
-      let calc (acc_list, acc_sum) (elem_list, elem_sum) =
-        (((elem_list @ acc_list)), (elem_sum + acc_sum))
-      in
-      let (ls, sum) = List.fold_left calc ([], 0) childs_results in
-      (sum::ls, sum)
+let get_size_list_and_sum root =
+  let concat_and_sum (acc_ls, acc_sum) (elem_ls, elem_sum) =
+    acc_ls @ elem_ls, acc_sum + elem_sum
+  in  
+  let rec get_size_list file_tree =
+    match file_tree with
+    | Nil -> [], 0
+    | File(_, _, size) -> [], size
+    | Dir(_, _, subtree) -> 
+      !subtree
+      |> List.map get_size_list
+      |> List.fold_left concat_and_sum ([], 0)
+      |> (fun (list, sum) -> sum::list, sum)
   in get_size_list root
 ;;
-
-
