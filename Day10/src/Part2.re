@@ -1,7 +1,7 @@
 let generate_pixels = (values, screen_width) => {
     let rec generate = (values, cycle, pixels) => {
         switch(values) {
-        | [value, ...t] when abs (cycle mod 40 - value) <= 1 => generate(t, cycle + 1, ["#", ...pixels])
+        | [value, ...t] when abs (cycle mod screen_width - value) <= 1 => generate(t, cycle + 1, ["#", ...pixels])
         | [value, ...t] => generate(t, cycle + 1, [".", ...pixels])
         | [] => List.rev(pixels)
         }
