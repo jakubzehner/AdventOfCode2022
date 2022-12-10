@@ -10,7 +10,7 @@ let read_input = (file_name) => {
     let rec build = (values) => {
         switch(input_line(input)) {
         | line => build(mapStringToValues(line, List.hd(values)) @ values)
-        | exception End_of_file => List.rev(values)
+        | exception End_of_file => List.rev(List.tl(values))
         }
     }
     build([1]);
