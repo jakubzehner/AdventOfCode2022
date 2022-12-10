@@ -1,0 +1,1 @@
+let render_image: (list(int), int) => unit;

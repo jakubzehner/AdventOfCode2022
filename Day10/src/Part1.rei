@@ -1,1 +1,1 @@
-let signalStrengthsSum: (list(Common.operation), list(int)) => int;
+let signalStrengthsSum: (list(int), list(int)) => int;

@@ -1,19 +1,17 @@
-type operation = Noop | Addx(int);
-
-let mapStringToOperation = (line) => {
+let mapStringToValues = (line, last_val) => {
     switch(String.split_on_char(' ', line)) {
-    | ["addx", n] => Addx(int_of_string(n))
-    | _ => Noop
+    | ["addx", n] => [last_val + int_of_string(n), last_val]
+    | _ => [last_val]
     }
 }
 
 let read_input = (file_name) => {
     let input = open_in(file_name);
-    let rec build = (operations) => {
+    let rec build = (values) => {
         switch(input_line(input)) {
-        | line => build([mapStringToOperation(line), ...operations])
-        | exception End_of_file => List.rev(operations)
+        | line => build(mapStringToValues(line, List.hd(values)) @ values)
+        | exception End_of_file => List.rev(values)
         }
     }
-    build([]);
+    build([1]);
 }

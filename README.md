@@ -42,7 +42,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 7: No Space Left On Device |   Ocaml    |   🌟    |   🌟    |
 | Day 8: Treetop Tree House      |     D      |   🌟    |   🌟    |
 | Day 9: Rope Bridge             |     R      |   🌟    |   🌟    |
-| Day 10: Cathode-Ray Tube       |  ReasonML  |   🌟    |        |
+| Day 10: Cathode-Ray Tube       |  ReasonML  |   🌟    |   🌟    |
 <!--
 | Day 11:                        |            |        |        |
 | Day 12:                        |            |        |        |
