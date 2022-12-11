@@ -43,7 +43,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 8: Treetop Tree House      |     D      |   🌟    |   🌟    |
 | Day 9: Rope Bridge             |     R      |   🌟    |   🌟    |
 | Day 10: Cathode-Ray Tube       |  ReasonML  |   🌟    |   🌟    |
-| Day 11: Monkey in the Middle   |  Crystal   |   🌟    |        |
+| Day 11: Monkey in the Middle   |  Crystal   |   🌟    |   🌟    |
 <!--
 | Day 12:                        |            |        |        |
 | Day 13:                        |            |        |        |
