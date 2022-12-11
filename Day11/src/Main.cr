@@ -1,9 +1,9 @@
 require "./Common"
 
-FILE_NAME = "inputs/input.txt"
+FILE_NAME = "inputs/test.txt"
 ROUNDS_PART1 = 20
 STRESS_DIVIDER_PART1 = 3
-ROUNDS_PART2  = 10000
+ROUNDS_PART2  = 10_000
 STRESS_DIVIDER_PART2 = 1
 
 monkeys = readInput(FILE_NAME)
