@@ -1,6 +1,6 @@
 import "Common.dart";
 
-var FILE_NAME = "../inputs/input.txt";
+var FILE_NAME = "../inputs/test.txt";
 var STARTING_POINT = "E";
 var ENDING_POINT_PART1 = "S";
 var ENDING_POINT_PART2 = "a";
