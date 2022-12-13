@@ -13,8 +13,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![ReasonML](https://img.shields.io/badge/reasonml-%23DD4B39.svg?style=for-the-badge&logo=reason&logoColor=white)
 ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white)
-
-<!-- ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) -->
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 <!-- ![Visual Basic](https://img.shields.io/badge/visual_basic-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white) -->
 <!-- ![Julia](https://img.shields.io/badge/-Julia-%239558B2?style=for-the-badge&logo=julia&logoColor=white) -->
 <!-- ![Perl](https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white) -->
@@ -31,21 +30,21 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 
 ## Progress
 
-| Day                            |  Language  | Part 1 | Part 2 |
-| ------------------------------ | :--------: | :----: | :----: |
-| Day 1: Calorie Counting        |     F#     |   🌟    |   🌟    |
-| Day 2: Rock Paper Scissors     |     C      |   🌟    |   🌟    |
-| Day 3: Rucksack Reorganization | Typescript |   🌟    |   🌟    |
-| Day 4: Camp Cleanup            |    Rust    |   🌟    |   🌟    |
-| Day 5: Supply Stacks           |    Bash    |   🌟    |   🌟    |
-| Day 6: Tuning Trouble          |    Ruby    |   🌟    |   🌟    |
-| Day 7: No Space Left On Device |   Ocaml    |   🌟    |   🌟    |
-| Day 8: Treetop Tree House      |     D      |   🌟    |   🌟    |
-| Day 9: Rope Bridge             |     R      |   🌟    |   🌟    |
-| Day 10: Cathode-Ray Tube       |  ReasonML  |   🌟    |   🌟    |
-| Day 11: Monkey in the Middle   |  Crystal   |   🌟    |   🌟    |
+| Day                             |  Language  | Part 1 | Part 2 |
+| ------------------------------- | :--------: | :----: | :----: |
+| Day 1: Calorie Counting         |     F#     |   🌟    |   🌟    |
+| Day 2: Rock Paper Scissors      |     C      |   🌟    |   🌟    |
+| Day 3: Rucksack Reorganization  | Typescript |   🌟    |   🌟    |
+| Day 4: Camp Cleanup             |    Rust    |   🌟    |   🌟    |
+| Day 5: Supply Stacks            |    Bash    |   🌟    |   🌟    |
+| Day 6: Tuning Trouble           |    Ruby    |   🌟    |   🌟    |
+| Day 7: No Space Left On Device  |   Ocaml    |   🌟    |   🌟    |
+| Day 8: Treetop Tree House       |     D      |   🌟    |   🌟    |
+| Day 9: Rope Bridge              |     R      |   🌟    |   🌟    |
+| Day 10: Cathode-Ray Tube        |  ReasonML  |   🌟    |   🌟    |
+| Day 11: Monkey in the Middle    |  Crystal   |   🌟    |   🌟    |
+| Day 12: Hill Climbing Algorithm |    Dart    |   🌟    |        |
 <!--
-| Day 12:                        |            |        |        |
 | Day 13:                        |            |        |        |
 | Day 14:                        |            |        |        |
 | Day 15:                        |            |        |        |
@@ -61,6 +60,6 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 25:                        |            |        |        | -->
 
 <!--
-F#, C, Typescript, Rust, Bash, Ruby, Ocaml, D,  R, ReasonML, Crystal
-Dart, Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+F#, C, Typescript, Rust, Bash, Ruby, Ocaml, D,  R, ReasonML, Crystal, Dart
+Visual basic, Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
 -->
