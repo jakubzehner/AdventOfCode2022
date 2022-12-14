@@ -80,11 +80,7 @@ Namespace src
         End Function
 
         Function ListsComparator(left As String, right As String) As Integer
-            If IsOrderRight(left, right) Then
-                Return -1
-            Else
-                Return 1
-            End If
+            Return If(IsOrderRight(left, right), -1, 1)
         End Function
     End Module
 End Namespace
