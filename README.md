@@ -44,7 +44,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 10: Cathode-Ray Tube        |   ReasonML   |   🌟    |   🌟    |
 | Day 11: Monkey in the Middle    |   Crystal    |   🌟    |   🌟    |
 | Day 12: Hill Climbing Algorithm |     Dart     |   🌟    |   🌟    |
-| Day 13: Distress Signal         | Visual Basic |   🌟    |        |
+| Day 13: Distress Signal         | Visual Basic |   🌟    |   🌟    |
 <!--
 | Day 14:                        |            |        |        |
 | Day 15:                        |            |        |        |
