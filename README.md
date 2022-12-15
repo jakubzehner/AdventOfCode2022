@@ -45,7 +45,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 11: Monkey in the Middle    |   Crystal    |   🌟    |   🌟    |
 | Day 12: Hill Climbing Algorithm |     Dart     |   🌟    |   🌟    |
 | Day 13: Distress Signal         | Visual Basic |   🌟    |   🌟    |
-| Day 14: Regolith Reservoir      |    Julia     |   🌟    |        |
+| Day 14: Regolith Reservoir      |    Julia     |   🌟    |   🌟    |
 <!--
 | Day 15:                        |            |        |        |
 | Day 16:                        |            |        |        |
