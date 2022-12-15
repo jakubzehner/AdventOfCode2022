@@ -1,21 +1,21 @@
 function generatePoints(startPoint, endPoint)
-    xS, yS = split(startPoint, ",")
-    xE, yE = split(endPoint, ",")
-    xS, xE, yS, yE = parse(Int64, xS), parse(Int64, xE), parse(Int64, yS), parse(Int64, yE)
-    diffX = xE - xS
-    diffY = yE - yS
+    diff = (endPoint[1] - startPoint[1], endPoint[2] - startPoint[2])
 
     points = []
-    for i in 0:max(abs(diffX), abs(diffY))
-        push!(points, (xS + i * sign(diffX), yS + i * sign(diffY)))
+    for i in 0:max(abs(diff[1]), abs(diff[2]))
+        push!(points, (startPoint[1] + i * sign(diff[1]), startPoint[2] + i * sign(diff[2])))
     end
 
     return points
 end
 
+function stringToTuple(tupleString)
+    return map(elem -> parse(Int64, elem), split(tupleString, ","))
+end
+
 function parseInputLine(line)
     points = []
-    cords = split(line, " -> ")
+    cords = map(stringToTuple, split(line, " -> ")) 
     for i in 1:size(cords, 1) - 1
         points = vcat(points, generatePoints(cords[i], cords[i + 1]))
     end
@@ -53,7 +53,6 @@ end
 oneBelow = cordinates -> (cordinates[1], cordinates[2] + 1)
 oneBelowToTheLeft = cordinates -> (cordinates[1] - 1, cordinates[2] + 1)
 oneBelowToTheRight = cordinates -> (cordinates[1] + 1, cordinates[2] + 1)
-
 function findNextPosition(points, cordinates, maxDeep)
     foundNextCord = false
     while !foundNextCord
@@ -66,9 +65,7 @@ function findNextPosition(points, cordinates, maxDeep)
         else
             foundNextCord = true
         end
-        if cordinates[2] == maxDeep
-            foundNextCord = true
-        end
+        foundNextCord |= cordinates[2] == maxDeep
     end
     return cordinates
 end
