@@ -15,7 +15,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Visual Basic](https://img.shields.io/badge/visual_basic-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-<!-- ![Julia](https://img.shields.io/badge/-Julia-%239558B2?style=for-the-badge&logo=julia&logoColor=white) -->
+![Julia](https://img.shields.io/badge/-Julia-%239558B2?style=for-the-badge&logo=julia&logoColor=white)
 <!-- ![Perl](https://img.shields.io/badge/perl-%2339457E.svg?style=for-the-badge&logo=perl&logoColor=white) -->
 <!-- ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white) -->
 <!-- ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) -->
@@ -45,8 +45,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 11: Monkey in the Middle    |   Crystal    |   🌟    |   🌟    |
 | Day 12: Hill Climbing Algorithm |     Dart     |   🌟    |   🌟    |
 | Day 13: Distress Signal         | Visual Basic |   🌟    |   🌟    |
+| Day 14: Regolith Reservoir      |    Julia     |   🌟    |        |
 <!--
-| Day 14:                        |            |        |        |
 | Day 15:                        |            |        |        |
 | Day 16:                        |            |        |        |
 | Day 17:                        |            |        |        |
@@ -60,6 +60,6 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 25:                        |            |        |        | -->
 
 <!--
-F#, C, Typescript, Rust, Bash, Ruby, Ocaml, D,  R, ReasonML, Crystal, Dart, Visual basic
-Julia, Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
+F#, C, Typescript, Rust, Bash, Ruby, Ocaml, D,  R, ReasonML, Crystal, Dart, Visual basic, Julia
+Perl, Scala, Lua, Carbon, Go, C++, Kotlin, Javascript, Java, C#, Python
 -->
