@@ -46,7 +46,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 12: Hill Climbing Algorithm |     Dart     |   🌟    |   🌟    |
 | Day 13: Distress Signal         | Visual Basic |   🌟    |   🌟    |
 | Day 14: Regolith Reservoir      |    Julia     |   🌟    |   🌟    |
-| Day 15: Beacon Exclusion Zone   |    Gleam     |   🌟    |        |
+| Day 15: Beacon Exclusion Zone   |    Gleam     |   🌟    |   🌟    |
 <!--
 | Day 16:                        |            |        |        |
 | Day 17:                        |            |        |        |

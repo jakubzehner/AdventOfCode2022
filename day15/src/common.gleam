@@ -15,17 +15,23 @@ fn parse_input(contents) -> List(sensor.Sensor) {
   |> parse_input_lines([])
 }
 
-fn parse_input_lines(lines: List(String), result: List(sensor.Sensor)) -> List(sensor.Sensor) {
+fn parse_input_lines(
+  lines: List(String),
+  result: List(sensor.Sensor),
+) -> List(sensor.Sensor) {
   case lines {
-    [line, ..tail] -> parse_input_lines(tail, [parse_input_line(line), ..result])
+    [line, ..tail] ->
+      parse_input_lines(tail, [parse_input_line(line), ..result])
     [] -> result
   }
 }
 
 fn parse_input_line(line: String) -> sensor.Sensor {
   assert Ok(#(sensor_string, beacon_string)) = string.split_once(line, on: ": ")
-  let #(sensor_x, sensor_y) = string_cordinates_to_position(string.crop(from: sensor_string, before: "x="))
-  let #(beacon_x, beacon_y) = string_cordinates_to_position(string.crop(from: beacon_string, before: "x="))
+  let #(sensor_x, sensor_y) =
+    string_cordinates_to_position(string.crop(from: sensor_string, before: "x="))
+  let #(beacon_x, beacon_y) =
+    string_cordinates_to_position(string.crop(from: beacon_string, before: "x="))
   sensor.new(sensor_x, sensor_y, beacon_x, beacon_y)
 }
 

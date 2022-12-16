@@ -10,7 +10,7 @@ pub fn new(sensor_x: Int, sensor_y: Int, beacon_x: Int, beacon_y: Int) {
     sensor_y,
     calculate_manhattan_length(sensor_x, sensor_y, beacon_x, beacon_y),
     beacon_x,
-    beacon_y
+    beacon_y,
   )
 }
 
@@ -27,7 +27,9 @@ pub fn coverage(sensor: Sensor, at y: Int) -> List(#(Int, Int)) {
   let Sensor(sx, sy, manhattan_length, _, _) = sensor
 
   case int.absolute_value(y - sy) {
-    diff if diff <= manhattan_length -> [#(sx - manhattan_length + diff, sx + manhattan_length - diff)]
+    diff if diff <= manhattan_length -> [
+      #(sx - manhattan_length + diff, sx + manhattan_length - diff),
+    ]
     _ -> []
   }
 }
