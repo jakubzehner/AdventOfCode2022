@@ -1,7 +1,6 @@
 import gleam/int
-import gleam/list
 
-pub type Sensor {
+pub opaque type Sensor {
   Sensor(x: Int, y: Int, manhattan_length: Int, beacon_x: Int, beacon_y: Int)
 }
 
@@ -24,22 +23,24 @@ fn calculate_manhattan_length(
   int.absolute_value(start_x - end_x) + int.absolute_value(start_y - end_y)
 }
 
-pub fn coverage(sensor: Sensor, at y: Int) -> List(Int) {
-  let Sensor(_, _, _, beacon_x, beacon_y) = sensor
-  case beacon_y {
-    beacon_y if beacon_y == y -> {
-      calculate_coverage(sensor, y)
-      |> list.filter(fn(x) {x != beacon_x})
-    }
-    _ -> calculate_coverage(sensor, y)
-  }
-}
-
-pub fn calculate_coverage(sensor: Sensor, y: Int) -> List(Int) {
+pub fn coverage(sensor: Sensor, at y: Int) -> List(#(Int, Int)) {
   let Sensor(sx, sy, manhattan_length, _, _) = sensor
 
   case int.absolute_value(y - sy) {
-    diff if diff <= manhattan_length -> list.range(sx - manhattan_length + diff, sx + manhattan_length - diff)
+    diff if diff <= manhattan_length -> [#(sx - manhattan_length + diff, sx + manhattan_length - diff)]
+    _ -> []
+  }
+}
+
+pub fn get_beacon_position(sensor: Sensor) -> #(Int, Int) {
+  case sensor {
+    Sensor(_, _, _, x, y) -> #(x, y)
+  }
+}
+
+pub fn get_beacon_x_if_at_y(sensor: Sensor, at y: Int) -> List(Int) {
+  case sensor {
+    Sensor(_, _, _, bx, by) if by == y -> [bx]
     _ -> []
   }
 }
