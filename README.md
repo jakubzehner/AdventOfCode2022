@@ -47,7 +47,7 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 13: Distress Signal         | Visual Basic |   🌟    |   🌟    |
 | Day 14: Regolith Reservoir      |    Julia     |   🌟    |   🌟    |
 | Day 15: Beacon Exclusion Zone   |    Gleam     |   🌟    |   🌟    |
-| Day 16: Proboscidea Volcanium   |  Javascript  |        |        |
+| Day 16: Proboscidea Volcanium   |  Javascript  |   🌟    |        |
 <!--
 | Day 17:                        |            |        |        |
 | Day 18:                        |            |        |        |
