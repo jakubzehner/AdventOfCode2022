@@ -16,14 +16,14 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 ![Visual Basic](https://img.shields.io/badge/visual_basic-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Julia](https://img.shields.io/badge/-Julia-%239558B2?style=for-the-badge&logo=julia&logoColor=white)
-![Gleam](https://img.shields.io/badge/Gleam-%23ffaff3.svg?style=for-the-badge&logo=erlang&logoColor=white)
+![Gleam](https://img.shields.io/badge/Gleam-%23ffaff3.svg?style=for-the-badge&logo=erlang&logoColor=%23323330)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 <!-- ![Scala](https://img.shields.io/badge/scala-%23DC322F.svg?style=for-the-badge&logo=scala&logoColor=white) -->
 <!-- ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) -->
 <!-- ![Carbon](https://img.shields.io/badge/carbon-%23000000.svg?style=for-the-badge&logo=c&logoColor=white) -->
 <!-- ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) -->
 <!-- ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) -->
 <!-- ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) -->
-<!-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) -->
 <!-- ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) -->
 <!-- ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) -->
 <!-- ![Python](https://img.shields.io/badge/python-%233670A0?style=for-the-badge&logo=python&logoColor=ffdd54) -->
@@ -47,8 +47,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 13: Distress Signal         | Visual Basic |   🌟    |   🌟    |
 | Day 14: Regolith Reservoir      |    Julia     |   🌟    |   🌟    |
 | Day 15: Beacon Exclusion Zone   |    Gleam     |   🌟    |   🌟    |
+| Day 16: Proboscidea Volcanium   |  Javascript  |        |        |
 <!--
-| Day 16:                        |            |        |        |
 | Day 17:                        |            |        |        |
 | Day 18:                        |            |        |        |
 | Day 19:                        |            |        |        |
@@ -60,6 +60,6 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 25:                        |            |        |        | -->
 
 <!--
-F#, C, Typescript, Rust, Bash, Ruby, Ocaml, D,  R, ReasonML, Crystal, Dart, Visual basic, Julia, Gleam
-Javascript, Scala, Lua, Carbon, Go, C++, Kotlin, Java, C#, Python
+F#, C, Typescript, Rust, Bash, Ruby, Ocaml, D,  R, ReasonML, Crystal, Dart, Visual basic, Julia, Gleam, Javascript
+Scala, Lua, Carbon, Go, C++, Kotlin, Java, C#, Python
 -->
