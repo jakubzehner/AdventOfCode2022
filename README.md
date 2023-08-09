@@ -50,6 +50,8 @@ You can find more information about AoC [here](https://adventofcode.com/2022 "Ad
 | Day 15: Beacon Exclusion Zone   |    Gleam     |   🌟    |   🌟    |
 | Day 16: Proboscidea Volcanium   |  Javascript  |   🌟    |   🌟    |
 | Day 17: Pyroclastic Flow        |      V       |   🌟    |        |
+
+I will finish it one day, I promise.
 <!--
 | Day 18:                        |            |        |        |
 | Day 19:                        |            |        |        |
